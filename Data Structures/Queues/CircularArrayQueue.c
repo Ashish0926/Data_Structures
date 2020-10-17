@@ -74,7 +74,9 @@ void main()
     int choice, data, size;
     while (1)
     {
-        printf("\n1. Create Queue\n2. EnQueue\n3. DeQueue");
+        printf("\n1. Create Queue");
+        printf("\n2. EnQue");
+        printf("\n3. DeQue");
         printf("\n4. Exit\nEnter your choice : ");
         scanf("%d", &choice);
         switch (choice)
